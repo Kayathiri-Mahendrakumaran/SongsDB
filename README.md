@@ -1,7 +1,7 @@
 # SongsDB
-# Sample data format
+## Sample data format
 
-```bash
+```
 {
 "திரைப்படம்":"வேலைக்காரன்",
 "பாடலாசிரியர்": "  மதன் கார்க்கி", 
