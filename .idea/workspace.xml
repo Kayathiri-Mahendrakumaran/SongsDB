@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cae2bafc-9ade-461c-ae37-d5c54303ae06" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Files/queries.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Files/stemming.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Files/stopwords.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srapping.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/Bad Boy.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/CEO இன் தி ஹவுஸ்.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/DJ DJ டிஸ்க்க.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/Fy Fy கலாச்சிஃபை.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/Google Google பண்ணி.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/Happy New Year.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/He_s My Hero.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/Hello Miss இம்சையே.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/I am a Kuthu Dancer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/I miss you miss you da.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/Let_s Go Party.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/Lovely Ladies.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/Mercury பூக்கள்.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/OMG பொண்ணு.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/Open the Tasmac.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/Parrys To Paris.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/Quit பண்ணுடா.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/Red Cardu.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/Rise Of Don.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/Shut Up Your Mouth.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/Stop The பாட்டு.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/Style.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/Surviva.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/What a கருவாடு.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/Wi Wi Wi WiFi.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/oh baby girl.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அகலாதே அகலாதே.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அகழாதே அகழாதே.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அகா நாகா.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அகில பாரத பெண்கள்.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அகிலா அகிலா கண்.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அகிலா அகிலா.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அக்கம் பக்கம் பாரடா.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அக்கம் பக்கம்.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அக்கம்பக்கம் பார்க்காதே.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அக்குதே அக்குதே.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அங்கியோடு நிஜாரணிந்தே.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அங்கே மாலை மயக்கம்.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அங்கே வருவது யாரோ.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அங்யாடே அங்யாடே.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அசைந்தாடும் காற்றுக்கும்.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அச்சச்சோ புன்னகை.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அச்சடிச்ச காச அவன் புடிச்சு.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அச்சமில்லை அச்சமில்லை.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அச்சம் என்பது மடமையடா.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அஜுக்கு அஜுக்கு கும்க்கு கும்க்கு.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அஞ்சனம் வச்ச.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அஞ்சனா அஞ்சனா.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அஞ்சல் பெட்டியைக்.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அஞ்சாதே கண்ணே.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அஞ்சாதே ஜீவா.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அஞ்சாம் நம்பர் பஸ்ஸில்.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அஞ்சாம் நம்பர்.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அட ஆள்தோட்ட.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அட என்னாத்த.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அட பொன்னான மனசே.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அடகொண்டை சேவல்.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அடங்கொப்பூராண.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அடடா அடடா.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அடடா அவளே என் ஆளு.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அடடா இது என்ன.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அடடா எனை ஏதோ செய்கிறாய்.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அடடா ஒண்ணும் சொல்லாத‌.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அடடா ஒரு தேவதை.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அடடா மழைடா.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அடி ஆத்தாடி.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அடி ஏன்டி புள்ள.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அடி ஒன் இன்ச்.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அடி சாமி சத்தியமா.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அடி தாராபுரம் தாம்பரம்.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அடி பெண்ணே.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அடி மஞ்சக்கெழங்கே.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அடி யாரது யாரது.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அடி ராக்கம்மா.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அடிக்குது குளிரு.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அடிச்சிதூக்கு.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அடிடா மேளத்த.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அடியாத்தி யாருக்கு நீ பேத்தி.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அடியே அடியே.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அடியே இவளே.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அடியே உன் கண்கள்.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அடியே என்ன ராகம்.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அடியே கொல்லுதே.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அடியே நெடுவாலி..json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அடியே மனம் நில்லுன.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அடியே… உன்ன பார்த்திட.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அடுக்கு மல்லி.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அடுத்த பருப்பு நான்.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அட்சி புட்சி கதுகிச்சு.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அணு விதைத்த பூமியிலே.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அண்ணாமல தம்பி.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அண்ணே அண்ணே.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அதாரு அதாரு.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அதிகாலை சுகவேளை.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அதிகாலை பூக்கள்.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அதிகாலையில் சேவலை.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அதிசய திருமணம்.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அதிசய நடமிடும்.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அதிசயம் பார்த்தேன்.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அதிசொக்க உனக்கு.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அதிரடிக்காரன் மச்சான்.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அதிர்ஷ்டம் அது.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அதிலி புதலி.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அது மாத்ரம் இப்ப கூடாது.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அதுவா இதுவா.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அதைர்யம் கொள்வது அறிவீனம்.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அதோ அந்த பறவை போல.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அதோ பாரடி அவரே.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அதோ வருகிறான்.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அத்தினி சித்தினி.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அத்தைக்கு பிறந்தவளே.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அத்தையின் மகளே.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அந்த கண்டமணி ஓசை.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அந்த கண்ண பார்த்தாக்கா.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அந்த தேவதையின்.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அந்த நிலாவ தான்.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அந்தக் கண்ணனன்றோ.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அந்தரங்கம் யாவுமே.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அந்தாட்டிக்கா வெண் பனியிலே.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அந்தி மயங்கும் நேரத்திலே.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அந்தி மழை மேகம்.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அனல் மேலே பனித்துளி.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அனாமிக்கா அனாமிக்கா.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அனார்கலி ஆகாயம் நீ.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அனிச்சம் பூவழகி.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அன்ன லக்ஷ்மி கண்ணசச்சா.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அன்னத்த நெனச்சா.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அன்பான தாயை.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அன்பின் வாசலே.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அன்பில் அவன்.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அன்புதான் இருக்கையிலே.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அன்புள்ள அப்பா.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அன்புள்ள சந்தியா.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அன்புள்ள மன்னவனே.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அன்பென்ற மழையிலே.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அன்பே அன்பே கொல்லாதே.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அன்பே அன்பே நீ என்.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அன்பே இது நிஜம்தானா.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அன்பே என் அன்பே.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அன்பே சுகமா.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அன்பே நீ என்ன.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அன்பே நீ மயிலா.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அன்பே பேரன்பே.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அன்பே வா.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அன்பை சுமந்து.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அன்று ஊமைப் பெண்ணல்லோ.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அன்றொரு நாள்.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அப்பன் பன்ன தப்புல.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அப்பன் மவனே.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அப்பப்பா காய்ச்சல் விட்டு.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அப்பாம்மா வெளையாட்டை.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அமளி துமளி நெளியும் valley.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அம்புலி மாமா வா.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அம்புலி மாமா ஷோக்குப் பார்க்க.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அம்மணிக்கு அடங்கி.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அம்மன் கோயில்.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அம்மன் கோவில்.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அம்மம்மா ஆகாது.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அம்மா அம்மா நீ.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அம்மா உன் பிள்ளை.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அம்மா என்னாசை நிறைவேறுமா.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அம்மா என்றழைக்காத.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அம்மா மேல சத்தியம்.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அம்மாடி உன் அழகு.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அம்மாடி தூக்கமா.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அம்மாடி ராணி.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அம்மாவும் நீயே.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அயிகிரி நந்தினி.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அய்யயோ கனவா.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அய்யய்யயே ஆனந்தமே.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அய்யய்யோ என் உசுருக்குள்ள.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அய்யோ அய்யோ.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அரிது அரிது மானிடராதல்.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அருகில் வந்தாள் உருகி.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அருவா மினுமினுங்கா.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அருவாக்காரன் அழகான.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அறியாத வயசு புரியாத மனசு.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அறுபடை வீடு கொண்ட.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அறுபது ஆயிடுச்சு மணி.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அலேக்ரா அலேக்ரா.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அலைக்கா லைக்கா.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அலையாடும் போலே.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அல்லி அர்ஜுனா.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அல்லி விழி அசைய.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அள்ளித்தரும் பிள்ளையாரை.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அழகான பெண்மானைப் பார்.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அழகான ராட்சசியே.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அழகாய் பூக்குதே சுகமாய்.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அழகினில் விளைந்தது.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அழகின் அற்புதமே.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அழகிய அண்ணி அனுபவம் எண்ணி.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அழகிய லைலா.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அழகியே.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அழகு அழகு அழைக்குது.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அழகு ஒரு ராகம்.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அழகு நிலவே கதவு.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அழகூரில் பூத்தவளே.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அழகென்ற சொல்லுக்கு முருகா.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அழகென்றால் அவள்.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அழகே அழகே அழகின்.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அழகே அழகே.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அழகோ அழகு.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அழியாத காதல் வாழ்வின்.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அழுது அழுது சோர்ந்ததையோ.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அழைகட்டுமா.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அழைப்பாயா அழைப்பாயா.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அவ என்ன என்ன தேடி.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அவ முன்னால நிக்கிறேன்.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அவத்த பையா.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அவனியெல்லாம் புகழ்.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அவரின்றி நானில்லை பெண்ணே.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அவர் நினைவும்.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அவர்க்கும் எனக்கும்.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அவளும் நானும்.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அவள் உலக அழகியே.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அவள் ஒரு மேனகை.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அவள் வருவாளா.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அவிச்சி வச்ச.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/அஸ்க் லஸ்கா.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/ஆரிரரோ ஆரிரரோ.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/தமிழனோட வீரம் எல்லாம்.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/நீ சிரிச்சாலும்.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-1/பூவுக்கு தாப்பா எதுக்கு.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Corpus/Part-2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modify_json.py" beforeDir="false" afterPath="$PROJECT_DIR$/modify_json.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1eAGnI78FTvmN7bM1HvmJz2pAvO" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/ElasticSearch/QUERIES.txt" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Desktop\SongsDB\Files" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cae2bafc-9ade-461c-ae37-d5c54303ae06" name="Default Changelist" comment="" />
+      <created>1593757148248</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593757148248</updated>
+      <workItem from="1593757161676" duration="6154000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="541" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593766444136">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="541" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1593766444136" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1593766771215">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1593766771215" />
+  </component>
+</project>

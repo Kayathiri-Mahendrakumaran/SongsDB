@@ -6,11 +6,10 @@ import os
 
 song_category = ["குத்து பாடல்","மெல்லிசை பாடல்","கர்நாடக சங்கீதம்","மேலைத்தேய சங்கீதம்"]
 
-directory = 'Lyrics_2019/'
+directory = 'directory/'
 files_list = os.listdir(directory)
-f = codecs.open("lyrics_2019_new.txt", 'w', encoding='utf-8')
+f = codecs.open("sample.txt", 'w', encoding='utf-8')
 
-# files_list = ['உயிரிலே உயிரிலே.json']
 print("Processing %d files"%(len(files_list)))
 
 for file in files_list:

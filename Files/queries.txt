@@ -1,0 +1,237 @@
+# Top 10 kuththu songs
+GET /tamil_songs_database/_search
+{
+    "size":10,
+    "sort" : [
+        { "மதிப்பீடு" : {"order" : "desc"}}
+    ],
+    "query": {
+        "multi_match": {
+            "fields":["வகை"],
+            "query" : "குத்து பாடல்கள்",
+            "fuzziness": "AUTO"
+        }
+    }
+}
+
+
+# TOP 10 songs 2017
+GET /tamil_songs_database/_search
+{
+    "size":10,
+    "sort" : [
+        { "மதிப்பீடு" : {"order" : "desc"}}
+    ],
+    "query": {
+        "multi_match": {
+            "fields":["வருடம்"],
+            "query" : "2017"
+        }
+    }
+}
+
+# top 10 songs from 2017 to 2019
+GET /tamil_songs_database/_search
+{
+    "size" : 10,
+     "sort" : [
+        { "மதிப்பீடு" : {"order" : "desc"}}
+    ],
+    "query": {
+        "range" : {
+            "வருடம்" : {
+                "gte" : "2017",
+                "lte" :  "2019"
+            }
+        }
+    }
+}
+
+
+# Most popular songs 2017
+GET /tamil_songs_database/_search
+{
+    "size":10,
+    "sort" : [
+        { "நுகர்ச்சி" : {"order" : "desc"}}
+    ],
+    "query": {
+        "multi_match": {
+            "fields":["வருடம்"],
+            "query" : "2018",
+            "fuzziness": "AUTO"
+        }
+    }
+}
+
+
+# Vellaikaran songs
+GET /tamil_songs_database/_search
+{
+    "query": {
+        "multi_match": {
+            "fields":["திரைப்படம்"],
+            "query" : "வேலைக்காரன்",
+            "fuzziness": "AUTO"
+        }
+    }
+}
+
+
+# Aniruth padalkal
+GET /tamil_songs_database/_search
+{
+    "query": {
+        "multi_match": {
+            "fields":["பாடியவர்கள்", "இசையமைப்பாளர்"],
+            "query" : "அனிருத்",
+            "type":       "best_fields",
+            "fuzziness": "AUTO"
+        }
+    }
+}
+
+# 2017 iman songs
+GET /tamil_songs_database/_search
+{
+ "query": {
+   "bool": {
+         "must": [
+             { "match": { "இசையமைப்பாளர்": "இமான்" }},
+             { "match": { "வருடம்": "2017" }}
+         ]
+       }
+     }
+}
+
+# இமான் latest songs
+GET /tamil_songs_database/_search
+{
+  "query": {
+    "bool": {
+      "must": [{
+          "match": {
+            "இசையமைப்பாளர்": "இமான்"
+          }
+        },
+        {
+          "range": {
+            "வருடம்" : {
+                "gte" : "2017"
+            }
+          }
+        }
+      ]
+    }
+  }
+}
+
+# illaiyaraja latest songs using bool filter
+GET /tamil_songs_database/_search
+{
+  "query": {
+    "bool": {
+      "must": [{
+          "match": {
+            "இசையமைப்பாளர்": "இளையராஜா"
+          }
+        }
+      ],
+      "filter": [
+        {
+          "range": {
+            "வருடம்" : {
+                "gte" : "2017"
+            }
+          }
+        }
+      ]
+    }
+  }
+}
+
+# By lyrics
+GET /tamil_songs_database/_search
+{
+    "query": {
+        "multi_match": {
+            "query" : "இறைவா என் இறைவா எனை தேடி என் மனம் போர்க்களம் ஆனதே",
+            "fuzziness": "AUTO"
+        }
+    }
+}
+
+
+# LATEST songs, new songs
+GET /tamil_songs_database/_search
+{
+    "query": {
+        "range": {
+            "வருடம்" : {
+                "gte" : "2019"
+            }
+        }
+    }
+}
+
+# SPELLING => fUZZR QUERIES
+GET /tamil_songs_database/_search
+{
+    "query": {
+        "multi_match": {
+            "query" : "ஹரஷ ஜெயராஜ்",
+            "fuzziness": "AUTO"
+        }
+    }
+}
+
+# WILDCARD QUERIES
+GET /tamil_songs_database/_search
+{
+    "query": {
+        "wildcard" : {
+	        "பாடலாசிரியர்" : "யுக*"
+        }
+    }
+}
+
+GET /tamil_songs_database/_search
+{
+    "query": {
+        "query_string": {
+            "query" : "*பாரதி"
+        }
+    }
+}
+
+
+# Movie lyrics
+GET /tamil_songs_database/_search
+{
+    "_source":{
+        "includes":["வகை","பாடல்வரிகள்"]
+    },
+    "query": {
+        "multi_match": {
+            "fields":["திரைப்படம்"],
+            "query" : "நிமிர்",
+            "fuzziness": "AUTO"
+        }
+    }
+}
+
+# top 10 songs from 2017 to 2019 filter output
+GET /tamil_songs_database/_search?filter_path=hits.hits._source.திரைப்படம்,hits.hits._source.பாடல்
+{
+    "size" : 10,
+     "sort" : [
+        { "மதிப்பீடு" : {"order" : "desc"}}
+    ],
+    "query": {
+        "multi_match": {
+            "fields":["இசையமைப்பாளர்"],
+            "query" : "யுவன் சங்கர் ராஜா",
+            "fuzziness": "AUTO"
+        }
+    }
+}

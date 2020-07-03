@@ -1,6 +1,7 @@
 # SongsDB
 ## Sample data format
 
+The songs were scrapped from https://www.tamilpaa.com and gathered from https://github.com/r-arun/tamil-songs. Some of the fields were in English. They were converted to unicode during pre-processing phase. Some of the fields like rating, views and type were randomly assigned using modify_json.py. Final json format will look like this:  
 ```
 {
 "திரைப்படம்":"வேலைக்காரன்",
@@ -15,5 +16,37 @@
 "வகை": "மேலைத்தேய சங்கீதம்"
 } 
  ``` 
+
+Data can be added to index using bulk API format using bulk_api.py
+
+# Sample Queries
+Following lines of codes are used for creating indexes. 
+
+```angular2
+{
+    "settings": {
+        "analysis" : {
+            "analyzer": {
+                "my_analyzer": {
+                    "tokenizer" : "standard",
+                    "filter": ["custom_stopper", "custom_stems"]
+                }
+            },
+            "filter":{
+                "custom_stopper":{
+                    "type":"stop",
+                    "stopwords_path": "analysis/stopwords.txt"
+                },
+                "custom_stems":{
+                    "type":"stemmer_override",
+                    "rules_path": "analysis/stemming.txt"
+                }
+            }
+        }
+    }
+}
+```
+And there are sample queries in queries.txt.
+
  
  
