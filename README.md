@@ -22,6 +22,7 @@ Data can be added to index using bulk API format using bulk_api.py
 # Sample Queries
 Following lines of codes are used for creating indexes. 
 
+Stemming and stop words are added in Files directory.
 ```angular2
 {
     "settings": {
@@ -46,7 +47,7 @@ Following lines of codes are used for creating indexes.
     }
 }
 ```
-And there are sample queries in queries.txt.
+And there are sample queries in Files/queries.txt.
 
  
  
